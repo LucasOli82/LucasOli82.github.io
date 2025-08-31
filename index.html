@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas Oliveira | Portfolio para o Lab da DIO</title>
+  <meta name="description" content="Portfólio de Lucas Oliveira para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="./assets/favicon/favicon-128x128.png" alt="Logo L.O">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Minha Jornada no Desenvolvimento Web</b></h1>
+      <p>Lucas Oliveira de Melo, Recife-PE, Estudante de Analise e Desenvolvimento de Sistemas.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/LucasOli82" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/lucas-oliveira-546888350/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+       
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias:</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="./assets/images/technologies/HTML5_logo_and_wordmark.svg.png" alt="Logo Html">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="./assets/images/technologies/CSS3_logo_and_wordmark.svg.png" alt="Logo Css">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="./assets/images/technologies/Javascript-shield.svg.png" alt="Logo JavaScript">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="./assets/images/projects/Projeto - Clonando o Discord.png" alt="Capa Projeto Discord">
+        <div class="card__body">
+          <h3 class="card__title">Clone - Discord</h3>
+          <p class="card__description">Página do Discord</p>
+          <ul class="card__list">
+            <li class="card__item">Foco na Responsividade</li>
+           
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/technologies/HTML5_logo_and_wordmark.svg.png" alt="Logo Html">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/technologies/CSS3_logo_and_wordmark.svg.png" alt="Logo Css">
+            </li>
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="./assets/images/projects/Projeto - Pokedex.png" alt="Capa Pokedex">
+        <div class="card__body">
+          <h3 class="card__title">Pokedéx</h3>
+          <p class="card__description">Pokedéx criada com Html, Css e JavaScript</p>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/technologies/HTML5_logo_and_wordmark.svg.png" alt="Logo Html">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/technologies/CSS3_logo_and_wordmark.svg.png" alt="Logo Css">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/technologies/Javascript-shield.svg.png" alt="Logo JavaScript">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="./assets/images/projects/Projeto - Yu-Gi-Oh.png" alt="Capa Projeto Yu-Gi-Oh">
+        <div class="card__body">
+          <h3 class="card__title">Yu-Gi-Oh Jokenpô Edition</h3>
+          <p class="card__description">Jogo de cartas estilo Jokenpô.</p>
+          <ul class="card__list">
+            <li class="card__item">Baseado no Jokenpô;</li>
+            <li class="card__item">Utilizando Cartas do Yu-Gi-Oh;</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/technologies/HTML5_logo_and_wordmark.svg.png" alt="Logo Html">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/technologies/CSS3_logo_and_wordmark.svg.png" alt="Logo Css">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/technologies/Javascript-shield.svg.png" alt="Logo JavaScript">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/LucasOli82" target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>"Olá, meu nome é Lucas. Atualmente estou cursando Análise e Desenvolvimento de Sistemas e venho me dedicando bastante à prática e desenvolvimento de projetos.
+
+Recentemente, tenho focado na construção do meu portfólio com base no que aprendi no curso da DIO.me, especialmente utilizando HTML, CSS e JavaScript.
+        </p>  
+        <div class="about__icons">
+                   
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/lucas-oliveira-546888350/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Ánalise e Desenvolvimento de Sistemas</h4>
+          <span>Fevereiro 2025 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Unicesumar</span>
+          </div>
+          
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Bootcamp - Front-end</h4>
+          <span>Digital Innovation One. Agosto 2025 - Atualmente</span>
+          <span>Desenvolvimento Front-end com Html, Css e JavaScript.
+          </span>
+        
+        </div>
+      </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/LucasOli82" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/lucas-oliveira-546888350/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+      </li>
+    </ul>
+    <a href="">
+      <button class="btn btn--primary">
+        <span class="email">lucasoliveira82@live.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2025. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+      <a href="https://www.linkedin.com/in/lucas-oliveira-546888350/" target="_blank">Lucas Oliveira</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
